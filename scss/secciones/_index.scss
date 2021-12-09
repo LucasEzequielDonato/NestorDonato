@@ -1,0 +1,51 @@
+/* Inicia main index */
+/* Inicia multimedia */
+.local div img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.redes a img {
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid black;
+  transition: all 0.25s;
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+/* Finaliza multimedia */
+.local {
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+.primerObjetivo,
+.segundoObjetivo {
+  color: black;
+  font-size: $xlg;
+  text-align: justify;
+  font-weight: 800;
+  line-height: 30px;
+  text-shadow: 1px 1px 2px grey;
+}
+.primerObjetivo {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.segundoObjetivo {
+  margin-bottom: 0;
+}
+.segundoContenedorDatos {
+  width: 100%;
+  text-align: left;
+  @extend %flexCentradoTotal;
+}
+.segundoContenedorDatos a {
+  color: black;
+  font-size: $md;
+  line-height: 30px;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px grey;
+  @extend %block;
+}
+/* Finaliza main index */

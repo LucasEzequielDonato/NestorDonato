@@ -1,0 +1,48 @@
+/* Inicia header */
+/* Inicia multimedia */
+#logo {
+  max-width: 40%;
+  height: 80%;
+}
+/* Finaliza multimedia */
+header {
+  width: 100%;
+  padding: 2%;
+  @extend %flex;
+}
+.contenedorLogo {
+  max-width: 400px;
+  margin: 0% auto;
+  @extend %flexEspaciadoCentrado;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid black;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 5px black;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+}
+#logoTexto {
+  max-width: 60%;
+  max-height: 100%;
+  @extend %block;
+}
+h1 {
+  font-size: $xxlg;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.tipoNegocio {
+  font-size: $xxsm;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.codigoMartillero {
+  font-size: $sm;
+  text-align: center;
+  font-weight: 900;
+}
+/* Finaliza header */

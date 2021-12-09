@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+/* Importo la fuente principal */
+@import "base/variables";
+@import "base/mapas";
+@import "base/extends";
+@import "base/mixins";
+@import "base/global";
+@import "componentes/body";
+@import "componentes/header";
+@import "componentes/nav";
+@import "componentes/main";
+@import "secciones/index";
+@import "secciones/propiedades";
+@import "secciones/propiedad";
+@import "secciones/nosotros";
+@import "secciones/gestion";
+@import "componentes/whatsapp";
+@import "base/mediaQuery";
+@import "componentes/footer";

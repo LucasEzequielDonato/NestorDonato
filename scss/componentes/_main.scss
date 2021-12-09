@@ -1,0 +1,12 @@
+/* Inicia main */
+main {
+  width: 100%;
+  max-width: 90rem;
+  margin-top: 68px;
+  margin-bottom: 2%;
+  @extend %blockCentrado;
+}
+.propiedadesMain {
+  margin-top: 2%;
+}
+/* Finaliza main */

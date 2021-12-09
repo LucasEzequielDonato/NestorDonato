@@ -1,0 +1,11 @@
+/* Inicia mixins */
+@mixin gestionTextosIngreso {
+  color: black;
+  font-size: $xlg;
+  text-align: center;
+  font-weight: 800;
+  line-height: 30px;
+  text-shadow: 1px 1px 2px grey;
+  margin-top: 5px;
+}
+/* Finaliza mixins */

@@ -1,0 +1,32 @@
+/* Inician extenciones */
+%none {
+  display: none;
+}
+%flex {
+  display: flex;
+}
+%flexCentrado {
+  @extend %flex;
+  justify-content: center;
+}
+%flexCentradoTotal {
+  @extend %flexCentrado;
+  align-items: center;
+}
+%flexEspaciado {
+  @extend %flex;
+  justify-content: space-around;
+}
+%flexEspaciadoCentrado {
+  @extend %flexEspaciado;
+  align-items: center;
+}
+%block {
+  display: block;
+}
+%blockCentrado {
+  @extend %block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Finaliza extenciones */

@@ -1,0 +1,115 @@
+/* Inicia main propiedad */
+/* Inicia multimedia */
+.propiedadFotos {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+/* Finaliza multimedia */
+.propiedadContenedorTitulo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  p {
+    font-size: $xxlg;
+    font-weight: bolder;
+  }
+}
+.propiedadContenedor1 {
+  width: 100%;
+  display: flex;
+}
+.carouselTamanio {
+  width: 100%;
+  height: 400px;
+}
+.propiedadContenedor1Descripcion1 {
+  min-width: 250px;
+  height: 400px;
+  padding-left: 2%;
+  text-align: left;
+  @extend %flexCentrado;
+  justify-content: space-around;
+  gap: 5%;
+}
+.propiedadContenedor1Descripcion1_1 {
+  height: 100%;
+  p {
+    height: 20%;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+.propiedadContenedor1Descripcion1_2 {
+  height: 100%;
+  p {
+    height: 20%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.propiedadContenedor1Descripcion2 {
+  margin-top: 2%;
+  p {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: 500;
+    text-align: justify;
+    color: black;
+  }
+}
+.propiedadDescripcion {
+  font-size: $md;
+  font-weight: 900;
+}
+.propiedadValores {
+  font-size: $md;
+  font-weight: 900;
+  text-align: center;
+}
+@media only screen and (max-width: 599px) {
+  .propiedadContenedor1 {
+    width: 100%;
+    display: block;
+  }
+  .carouselTamanio {
+    width: 100%;
+    height: 300px;
+  }
+  .propiedadContenedor1Descripcion1 {
+    min-width: 250px;
+    height: 100px;
+    padding-left: 0;
+    text-align: left;
+    @extend %flexCentrado;
+    justify-content: center;
+    gap: 5%;
+    margin: 2% 0;
+  }
+  .propiedadContenedor1Descripcion1_1 {
+    width: 50%;
+    height: 100%;
+    p {
+      height: 20%;
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .propiedadContenedor1Descripcion1_2 {
+    width: 50%;
+    height: 100%;
+    p {
+      height: 20%;
+      margin-bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+/* Finaliza main propiedad */

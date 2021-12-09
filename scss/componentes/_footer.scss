@@ -1,0 +1,54 @@
+/* Inicia footers */
+/* Inicia multimedia */
+.iconosIndex {
+  display: block;
+  height: 30.8px;
+}
+/* Finaliza multimedia */
+footer {
+  width: 100%;
+  background-color: $colorPieDePagina;
+  color: white;
+  margin-top: 2%;
+  @extend %flexCentrado;
+}
+.footerContenedor {
+  width: 100%;
+  max-width: 90rem;
+  padding: 0% 2%;
+}
+#contacto {
+  @extend %flexCentrado;
+  padding: 2%;
+  div {
+    a {
+      color: white;
+      font-size: $md;
+      line-height: 30px;
+      font-weight: 600;
+      text-shadow: 1px 1px 2px grey;
+      height: 20%;
+      text-decoration: none;
+      @extend %block;
+    }
+    p {
+      color: white;
+      font-size: $md;
+      line-height: 30px;
+      font-weight: 600;
+      text-shadow: 1px 1px 2px grey;
+      height: 20%;
+      width: 270px;
+      margin-bottom: 0;
+    }
+  }
+}
+.datosIconos {
+  height: 100%;
+  margin-right: 2%;
+  filter: invert(1);
+}
+.datosInformacion {
+  margin-left: 10px;
+}
+/* Finaliza footers */
