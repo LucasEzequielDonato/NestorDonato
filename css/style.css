@@ -210,6 +210,53 @@ main {
 }
 
 /* Finaliza multimedia */
+#todas,
+#venta,
+#alquiler {
+  display: none;
+}
+
+.propiedadesContenedorFiltro {
+  background-color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  margin: 2% 0% 0% 0%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 0px 5px;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 36px;
+  z-index: 5;
+}
+
+.propiedadesFiltro {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 90rem;
+}
+.propiedadesFiltro label {
+  padding: 10px 0;
+  width: 25rem;
+  height: 100%;
+  transition: all 0.25s;
+}
+.propiedadesFiltro label:hover {
+  transform: scale(1.05);
+}
+.propiedadesFiltro label p {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+#venta:checked ~ .propiedades .propiedadEnAlquiler,
+#alquiler:checked ~ .propiedades .propiedadEnVenta {
+  display: none;
+}
+
 .propiedades {
   gap: 30px;
   flex-direction: row;
