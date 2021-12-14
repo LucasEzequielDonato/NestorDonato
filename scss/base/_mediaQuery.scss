@@ -39,6 +39,7 @@
         display: block;
         padding: 5px;
         color: black;
+        text-shadow: 1px 1px 2px grey;
         text-decoration: none;
         line-height: 1.2;
         margin-bottom: 0;
@@ -116,6 +117,7 @@
   .nav ul li p,
   ul ul li a {
     font-size: 20px;
+    text-shadow: 1px 1px 2px grey;
     text-align: center;
     display: block;
     color: black;
@@ -130,6 +132,7 @@
     list-style-type: none;
     color: black;
     font-size: x-large;
+    text-shadow: 1px 1px 2px grey;
   }
   .nav li a:hover,
   .nav li p:hover,
@@ -230,6 +233,7 @@
     box-shadow: 0px 0px 5px;
     border-radius: 1.5rem;
     max-width: 90rem;
+    transition: all 0.25s;
   }
   .recuadro:hover {
     background-color: rgba(255, 255, 255, 0.75);
@@ -332,6 +336,10 @@
       a {
         display: block;
         margin: 30px 0;
+        transition: all 0.25s;
+        &:hover {
+          transform: scale(1.1);
+        }
       }
     }
   }
@@ -349,6 +357,10 @@
       a {
         display: block;
         margin: 0;
+        transition: all 0.25s;
+        &:hover {
+          transform: scale(1.1);
+        }
       }
     }
   }
@@ -391,6 +403,10 @@
   }
   .footerContenedorLogo {
     display: none;
+  }
+  .iconosIndex {
+    display: block;
+    height: 30px;
   }
 }
 @media only screen and (min-width: 600px) {

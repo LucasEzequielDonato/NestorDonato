@@ -2,7 +2,7 @@
 /* Inicia multimedia */
 .iconosIndex {
   display: block;
-  height: 30.8px;
+  height: 20%;
 }
 /* Finaliza multimedia */
 footer {
@@ -30,6 +30,11 @@ footer {
       height: 20%;
       text-decoration: none;
       @extend %block;
+      transition: all 0.25s;
+      &:hover {
+        color: blue;
+        text-shadow: 1px 1px 2px blue;
+      }
     }
     p {
       color: white;
@@ -40,6 +45,11 @@ footer {
       height: 20%;
       width: 270px;
       margin-bottom: 0;
+      transition: all 0.25s;
+      &:hover {
+        color: blue;
+        text-shadow: 1px 1px 2px blue;
+      }
     }
   }
 }
