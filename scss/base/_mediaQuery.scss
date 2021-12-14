@@ -282,7 +282,7 @@
     width: 100%;
     margin: 2% 0%;
   }
-  .recuadroNosotros img {
+  .nosotrosFoto {
     width: 25%;
     border-radius: 20rem;
     margin: 5% 5% 0;
@@ -303,7 +303,7 @@
     padding: 2%;
     border-right: 1px solid black;
   }
-  .recuadroNosotros img {
+  .nosotrosFoto {
     width: 100%;
     border-radius: 20rem;
     border: 1px solid black;
@@ -318,6 +318,39 @@
   .Nombre {
     width: 100%;
     margin: 2% 0;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .nosotrosRedes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black;
+    padding: 0% 2%;
+    div {
+      display: block;
+      a {
+        display: block;
+        margin: 30px 0;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 899px) {
+  .nosotrosRedes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    padding: 2% 0;
+    div {
+      display: flex;
+      gap: 30px;
+      a {
+        display: block;
+        margin: 0;
+      }
+    }
   }
 }
 @media only screen and (max-width: 899px) {
