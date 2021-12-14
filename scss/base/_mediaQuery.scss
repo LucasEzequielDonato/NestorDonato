@@ -271,6 +271,7 @@
     text-align: justify;
     font-weight: 800;
     line-height: 30px;
+    text-shadow: 1px 1px 2px grey;
   }
 }
 @media only screen and (max-width: 899px) {
@@ -295,6 +296,7 @@
   .descripcionNosotros {
     font-size: $xlg;
     padding: 2%;
+    text-shadow: 1px 1px 2px grey;
   }
 }
 @media only screen and (min-width: 900px) {
@@ -318,6 +320,7 @@
     align-items: center;
     font-size: $xlg;
     margin: 0% auto;
+    text-shadow: 1px 1px 2px grey;
   }
   .Nombre {
     width: 100%;
