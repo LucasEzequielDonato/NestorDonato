@@ -1,0 +1,23 @@
+{
+  "name": "web_de_inmobiliaria---lucas-donato",
+  "version": "1.0.0",
+  "description": "Sitio Web Inmobiliaria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasEzequielDonato/NestorDonato.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasEzequielDonato/NestorDonato/issues"
+  },
+  "homepage": "https://github.com/LucasEzequielDonato/NestorDonato#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
