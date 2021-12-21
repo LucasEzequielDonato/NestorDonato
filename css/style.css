@@ -15,11 +15,11 @@ html {
   display: none;
 }
 
-.contenedorWhatsapp, .propiedad, header, .propiedades, .contenedorLogo, #contacto, footer, .propiedadContenedor1Descripcion1, .whatsapp a, .whatsapp, .segundoContenedorDatos {
+.contenedorWhatsapp, .propiedad, header, .propiedades, .contenedorLogo, footer, .propiedadContenedor1Descripcion1, .whatsapp a, .whatsapp, .segundoContenedorDatos {
   display: flex;
 }
 
-#contacto, footer, .propiedadContenedor1Descripcion1, .whatsapp a, .whatsapp, .segundoContenedorDatos {
+footer, .propiedadContenedor1Descripcion1, .whatsapp a, .whatsapp, .segundoContenedorDatos {
   justify-content: center;
 }
 
@@ -35,7 +35,7 @@ html {
   align-items: center;
 }
 
-#contacto div a, .segundoContenedorDatos a, #logoTexto, main {
+.segundoContenedorDatos a, #logoTexto, main {
   display: block;
 }
 
@@ -666,8 +666,9 @@ main {
 /* Inicia multimedia */
 .iconosIndex {
   display: block;
-  height: 20%;
-  margin: 5px 0;
+  height: 30px;
+  margin-right: 10px;
+  filter: invert(1);
 }
 
 /* Finaliza multimedia */
@@ -682,38 +683,41 @@ footer {
   width: 100%;
   max-width: 90rem;
   padding: 0% 2%;
+  display: flex;
 }
 
 #contacto {
   padding: 2%;
 }
-#contacto div a {
-  color: white;
-  font-size: 1.5rem;
-  line-height: 30px;
-  font-weight: 600;
-  text-shadow: 1px 1px 2px grey;
-  height: 20%;
-  margin: 5px 0;
+#contacto a {
   text-decoration: none;
-  transition: all 0.25s;
 }
-#contacto div a:hover {
-  color: blue;
-  text-shadow: 1px 1px 2px blue;
+
+.contactoDatos {
+  display: flex;
+  height: 30px;
+  margin: 5px 0;
 }
-#contacto div p {
+
+.contactoDatosDoble {
+  display: flex;
+  height: 60px;
+  margin: 5px 0;
+}
+
+.contactoTexto {
   color: white;
   font-size: 1.5rem;
   line-height: 30px;
   font-weight: 600;
   text-shadow: 1px 1px 2px grey;
-  height: 20%;
   width: 270px;
-  margin: 5px 0;
   transition: all 0.25s;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
 }
-#contacto div p:hover {
+.contactoTexto:hover {
   color: blue;
   text-shadow: 1px 1px 2px blue;
 }
@@ -721,7 +725,6 @@ footer {
 .datosIconos {
   height: 100%;
   margin-right: 2%;
-  filter: invert(1);
 }
 
 .datosInformacion {
@@ -1156,16 +1159,29 @@ ul ul li a {
 }
 @media only screen and (max-width: 599px) {
   .footerContenedor {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 
   .footerContenedorLogo {
     display: none;
   }
 
-  .iconosIndex {
-    display: block;
-    height: 35px;
+  .contactoTexto {
+    color: white;
+    font-size: 1.25rem;
+    line-height: 30px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px grey;
+    width: 230px;
+    transition: all 0.25s;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+  .contactoTexto:hover {
+    color: blue;
+    text-shadow: 1px 1px 2px blue;
   }
 }
 @media only screen and (min-width: 600px) {
