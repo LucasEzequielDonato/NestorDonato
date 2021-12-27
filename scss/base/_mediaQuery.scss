@@ -386,10 +386,7 @@
 }
 @media only screen and (min-width: 900px) {
   .gestionContenedor {
-    background-image: linear-gradient(
-      rgba(255, 255, 255, 0.25),
-      rgba(255, 255, 255, 0.5)
-    );
+    background-color: rgba(255, 255, 255, 0.85);
     text-align: center;
     padding: 20px;
     margin: 20% auto;
@@ -399,7 +396,7 @@
     max-width: 30rem;
     transition: all 0.25s;
     &:hover {
-      background-color: rgba(255, 255, 255, 0.75);
+      background-color: rgba(255, 255, 255, 0.95);
     }
   }
 }
