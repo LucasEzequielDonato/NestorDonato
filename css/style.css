@@ -275,7 +275,7 @@ main {
   flex-direction: column;
   border: 1px solid black;
   border-radius: 2rem;
-  background-color: rgba(255, 255, 255, 0.785);
+  background-color: rgba(255, 255, 255, 0.85);
   text-align: center;
   box-shadow: 0px 0px 10px black;
   transition: all 0.25s;
@@ -468,7 +468,7 @@ main {
 
 /* Finaliza multimedia */
 .recuadroNosotros {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.85);
   text-align: center;
   margin: 2% 2% 0% 2%;
   border: 1px solid black;
@@ -478,7 +478,7 @@ main {
 }
 
 .recuadroNosotros:hover {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 .Nombre {
@@ -711,7 +711,7 @@ footer {
   font-size: 1.5rem;
   line-height: 30px;
   font-weight: 600;
-  text-shadow: 1px 1px 2px grey;
+  text-shadow: 1px 1px 2px white;
   width: 270px;
   transition: all 0.25s;
   margin-bottom: 0;
@@ -1179,7 +1179,7 @@ ul ul li a {
     font-size: 1.25rem;
     line-height: 30px;
     font-weight: 600;
-    text-shadow: 1px 1px 2px grey;
+    text-shadow: 1px 1px 2px white;
     width: 230px;
     transition: all 0.25s;
     margin-bottom: 0;
