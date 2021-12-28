@@ -18,22 +18,21 @@
   margin: 0 auto;
   padding: 2%;
 }
-.gestionTextoUsuario {
+.gestionTexto {
   @include gestionTextosIngreso;
   margin-bottom: 5px;
-}
-.gestionTextoContraseña {
-  @include gestionTextosIngreso;
 }
 .gestionCentrar {
   text-align: center;
   width: 80%;
-  margin-top: 5px;
+  height: 25px;
+}
+.gestionContenedorBoton {
+  margin-top: 15px;
 }
 .gestionContenedorBoton button {
   width: 150px;
   height: 30px;
-  margin-top: 15px;
   border-radius: 1rem;
   border: none;
   cursor: pointer;
@@ -118,6 +117,17 @@
   &:hover::after {
     transform: scale(100);
     background-color: red;
+  }
+}
+.gestionOlvido {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  a {
+    width: 160px;
+    font-size: $md;
+    display: block;
   }
 }
 /* Finaliza main gestion */
